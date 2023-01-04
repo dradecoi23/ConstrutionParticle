@@ -1,0 +1,229 @@
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+html,body{ 
+    width:100%;
+    height:100%;
+    background:#111;
+  }
+  
+  html{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  body{
+    font-family: 'Rubik', sans-serif;                                          
+  }
+  
+  canvas{
+    display:block;
+    vertical-align:bottom;
+  }
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  /* background: #000022; */
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  /* color: #13E8E9; */
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+/*  background-color: #b61924;*/
+    
+  /*color de fondo*/        
+  background: #000; 
+    
+  /* background-image: url('../img/ADGSINFONDO-pq.png'); */
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.pulso-fa{
+  position: relative;
+}
+
+.pulso-son{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.pulso-img{
+  width: 100%;
+}
+
+img, svg {
+  vertical-align: middle;
+  width: 4rem;
+}
+
+.modal-title-adg{
+    flex-direction: column-reverse;
+    background: #000;
+    color: white;
+
+}
+
+.modal-content-adg{
+    max-height: 100%;
+    overflow: auto;
+    background: black;
+    color: white;
+    border: 4px solid #810B25;;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.modal-adg-f{
+  border-top: none;
+  justify-content: center;
+}
+
+.modal-adg-b{
+  border-bottom: none;
+}
+
+.btn-secondary{
+  color: white;
+  background-color: #1f1f1f;
+  border-color: #1f1f1f;
+}
+.btn-secondary:hover {
+  color: #262E4B;
+  background-color: #810B25;
+  border-color: #810B25;
+}
+
+
+
+/* Aquí van los estilos generales del sitio */
+
+@media only screen and ( max-width: 1024px ) {
+	
+  .pulso-img{
+    width: 100%;
+  }
+  
+  img, svg {
+    width: 100%;
+  }
+  
+  .modal-title-adg{
+    width: 100%;
+  
+  }
+  
+  .modal-content-adg{
+     width: 100%;
+  }
+ 
+	
+}
+
+
+@media only screen and ( max-width: 768px ) {
+	
+  .pulso-img{
+    width: 100%;
+    margin-top: 50%;
+  }
+  
+  img, svg {
+    width: 100%;
+  }
+  
+  .modal-title-adg{
+    width: 100%;
+  
+  }
+  
+  .modal-content-adg{
+     width: 100%;
+  }
+	
+}
+
+
+@media only screen and ( max-width: 480px ) {
+	
+  .pulso-img{
+    width: 100%;
+    margin-top: 50%;
+  }
+  
+  img, svg {
+    width: 100%;
+  }
+  
+  .modal-title-adg{
+    width: 100%;
+  
+  }
+  
+  .modal-content-adg{
+     width: 100%;
+  }
+	
+}
+
+
+@media only screen and ( max-width: 320px ) {
+	
+  .pulso-img{
+    width: 100%;
+  }
+  
+  img, svg {
+    width: 100%;
+  }
+  
+  .modal-title-adg{
+    width: 100%;
+  
+  }
+  
+  .modal-content-adg{
+     width: 100%;
+  }
+	
+}
